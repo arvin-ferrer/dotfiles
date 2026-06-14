@@ -1,0 +1,32 @@
+format = """
+[ ](bg:#1a0000)\
+$directory\
+$git_branch\
+$git_status\
+$character\
+"""
+
+[directory]
+style = "bg:#1a0000 fg:#ff0000 bold"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#1a0000 fg:#ff5555"
+format = '[[ $symbol $branch ](fg:#ff5555 bg:#1a0000)]($style)'
+
+[git_status]
+style = "bg:#1a0000 fg:#ff0000"
+format = '[[($all_status$ahead_behind )](fg:#ff0000 bg:#1a0000)]($style)'
+
+[character]
+success_symbol = "[❯](bold #ff0000)"
+error_symbol = "[✗](bold #ff0000)"

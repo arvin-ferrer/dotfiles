@@ -1,0 +1,16 @@
+theme "horror"
+themes {
+    horror {
+        fg "#ffcccc"
+        bg "#0a0202"
+        black "#0a0202"
+        red "#ff0000"
+        green "#2d5a27"
+        yellow "#d4a017"
+        blue "#cc0000"
+        magenta "#ff4444"
+        cyan "#880000"
+        white "#ffffff"
+        orange "#cc3333"
+    }
+}

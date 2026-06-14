@@ -1,0 +1,57 @@
+/* Minimal dark red Firefox */
+
+/* Hide the native titlebar */
+#titlebar {
+  background-color: #050101 !important;
+}
+
+/* Toolbars */
+#navigator-toolbox {
+  background-color: #0a0202 !important;
+  color: #ffcccc !important;
+  border-bottom: 1px solid #cc0000 !important;
+}
+
+/* The active tab */
+.tab-background[selected="true"] {
+  background-color: #6b0000 !important;
+  border-radius: 0px !important;
+  border: 1px solid #ff0000 !important;
+  border-bottom: 0px !important;
+}
+
+/* Inactive tabs */
+.tab-background:not([selected="true"]) {
+  background-color: #1a0505 !important;
+  border-radius: 0px !important;
+}
+
+/* Hovered tabs */
+.tab-background:not([selected="true"]):hover {
+  background-color: #3b0000 !important;
+}
+
+/* URL Bar */
+#urlbar-background {
+  background-color: #120303 !important;
+  border: 1px solid #880000 !important;
+  border-radius: 0px !important;
+}
+
+#urlbar[focused="true"] > #urlbar-background {
+  border: 1px solid #ff0000 !important;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.5) !important;
+}
+
+/* Bookmarks bar */
+#PersonalToolbar {
+  background-color: #0a0202 !important;
+}
+
+/* Remove tab line */
+.tab-line { display: none !important; }
+
+/* Text colors */
+.tabbrowser-tab { color: #ffcccc !important; }
+.tabbrowser-tab[selected="true"] { color: #ffffff !important; }
+#urlbar-input { color: #ffcccc !important; }

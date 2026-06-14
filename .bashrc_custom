@@ -1,0 +1,5 @@
+eval "$(starship init bash)"
+eval "$(zoxide init bash)"
+export BAT_THEME="base16"
+export FZF_DEFAULT_OPTS='--color=fg:#ffcccc,bg:#0a0202,hl:#ff0000 --color=fg+:#ffffff,bg+:#220000,hl+:#ff4444 --color=info:#d4a017,prompt:#cc0000,pointer:#ff0000 --color=marker:#ff0000,spinner:#cc0000,header:#880000'
+alias cd='z'

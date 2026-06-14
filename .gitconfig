@@ -1,0 +1,19 @@
+[user]
+	name = Arvin Ferrer
+	email = 60701881+arvin-ferrer@users.noreply.github.com
+[init]
+	defaulBranch = main
+[safe]
+	directory = /usr/share/flutter
+[core]
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	light = false
+	features = decorations
+[delta "decorations"]
+	commit-decoration-style = bold yellow box ul
+	file-style = bold yellow ul
+	file-decoration-style = none
